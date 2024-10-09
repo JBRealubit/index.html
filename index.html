@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #wrapper-div 
+        {
+            padding: 80px;
+            font-family: Arial;
+        }
+
+        #logo-div 
+        {   
+            font-size: 25px;
+            width: 50%;
+            min-height: 50px;
+            font-weight: bold;
+            float: left;
+            background-color: lightgray;
+            padding-left: 2%;
+            line-height: 50px;
+            margin-bottom: 10px; 
+        }
+
+        #nav-div 
+        {
+            font-size: 25px;
+            width: 50%;
+            text-align: center;
+            float: right;
+            background-color: lightgray;
+            padding-right: 2%;
+            line-height: 50px;
+            margin-bottom: 10px; 
+        }
+
+        #header-banner-div 
+        {
+            font-size: 25px;
+            clear: both;
+            width: 100%;
+            min-height: 100px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 150px;
+            margin-bottom: 10px; 
+        }
+
+        #intro-text-area-div 
+        {
+            font-size: 25px;
+            width: 100%;
+            min-height: 60px;
+            background-color: lightgrey;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 10px;
+        }
+
+        #row {
+            display: flex;                 
+            justify-content: space-between; 
+            margin: 0;                    
+        }
+
+        #column {
+            font-size: 35px;
+            width: 410px;     
+            min-height: 100px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 2000%;
+            box-sizing: border-box;
+            margin: 10px 0;               
+        }
+
+        #footer-div {
+            font-size: 25px;
+            width: 100%;
+            min-height: 50px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper-div">
+        <div id="logo-div">
+            Logo
+        </div>
+        <div id="nav-div">
+            Navigation
+        </div>
+        <div id="header-banner-div">
+            Header/Banner
+        </div>
+        <div id="intro-text-area-div">
+            Intro Text Area
+        </div>
+        <div id="row">
+            <div id="column">
+                Box 1
+            </div>
+            <div id="column">
+                Box 2
+            </div>
+            <div id="column">
+                Box 3
+            </div>
+        </div>
+        <div id="footer-div">
+            Footer
+        </div>
+    </div>
+</body>
+</html>
